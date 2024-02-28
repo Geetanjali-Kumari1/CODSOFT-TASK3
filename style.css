@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    display: grid;
+    place-items: center;
+    background-color: rgb(211, 100, 100);
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: large;
+    font-weight: 500; */
+}
+.wrapper{
+    width: 420px;
+    height: 110px;
+    /* background-color: aqua; */
+    background: linear-gradient(100deg, orange, white, green);
+    margin-top: 33%;
+    border-radius: 4px;
+}
+.wrapper .clock{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50% , -50%);
+    width: 405px;
+    height: 95px;
+    background: rgb(211, 100, 100);
+
+}
+.clock #time{
+    font-size: 65px;
+    color: black;
+    padding: 12px;
+    font-weight: 1000;
+
+}
